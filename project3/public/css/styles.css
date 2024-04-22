@@ -1,0 +1,34 @@
+
+
+.header {
+    background-color: #f4f4f4;
+  }
+  
+  .navigation_list {
+    gap: 10px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .navigation_link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .navigation_link:hover, 
+  .navigation_link:active {
+    color: red;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+  
+  .label {
+    flex-direction: column;
+    display: flex;
+    width: 100px;
+  }
